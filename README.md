@@ -8,4 +8,6 @@ composer require stripe/stripe-php
 # To Use
 require_once('vendor/autoload.php');<br/>
 require_once('vendor/stripe/stripe-php/init.php');<br/>
-Check the index.php for credit card payment.
+Check the index.php for credit card payment.<br/>
+Change the Stripe Secret Key in line number 48 in index.php<br/>
+\Stripe\Stripe::setApiKey("YOUR_SECRET_KEY_HERE");
