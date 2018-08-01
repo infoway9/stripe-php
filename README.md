@@ -11,3 +11,5 @@ require_once('vendor/stripe/stripe-php/init.php');<br/>
 Check the index.php for credit card payment.<br/>
 Change the Stripe Secret Key in line number 48 in index.php<br/>
 \Stripe\Stripe::setApiKey("YOUR_SECRET_KEY_HERE");
+# Sample card Number 
+Please use for <a href="https://stripe.com/docs/testing">test credit card </a>
